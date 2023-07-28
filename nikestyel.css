@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:sans-serif;
+    text-align: center;
+    background-color: grey;
+    border: .5rem solid black;
+
+   
+    
+
+
+    
+}
+
+
+
+
+
+.price{
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: green;
+}
+
+
+
+figure{
+    padding-top: 3rem;
+}
+
+
+
+
+.blkr{
+    
+    color: white;
+    font-weight: bolder;
+    background-color:black;
+    border:none;   
+    height:2.25rem;
+    width: 6.75rem;
+    border-radius: 5em;
+    transition: color .5s, background-color .5s;
+
+}
+
+.buy{
+    color: white;
+    font-weight: bolder;
+    background-color:black;
+    border:none;   
+    height:2.25rem;
+    width: 6.75rem;
+    border-radius: 5em;
+
+}
+.buy a{
+    display: block ;
+}
+.blkr a{
+    display: block ;
+}
+.blkr a,
+.blkr a:visited{
+   text-decoration: none;
+   color: white;}
+
+   .blkr a:hover,
+   .blkr a:focus{
+    background: whitesmoke;
+    color: black;
+    cursor: pointer;
+    height:2.25rem;
+    width: 6.75rem;
+    border-radius: 5em;
+
+   }
+   .buy a,
+   .buy a:visited{
+    text-decoration: none;
+    color: white;}
+ 
+    .buy a:hover,
+    .buy a:focus{
+     background: green;
+     color: whitesmoke;
+     cursor: pointer;
+     height:2.25rem;
+     width: 6.75rem;
+     border-radius: 5em;
+    
+    }
